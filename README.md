@@ -1,18 +1,18 @@
 # Music Generation with RNNs
 
 
-#Irish Folk Music Generation with RNN
+# Irish Folk Music Generation with RNN
 Welcome to our Irish Folk Music Generation project! In this project, we explore the fascinating world of Irish folk songs represented in the ABC notation. We aim to train a Recurrent Neural Network (RNN) model to learn the intricate patterns within these musical notations and use the trained model to generate new, authentic pieces of Irish folk music.
 
-#Getting Started
+# Getting Started
 
-#Dataset
+1.Dataset
 We have assembled a comprehensive dataset containing thousands of Irish folk songs in ABC notation. To get started, download the dataset and take a closer look to understand its structure.
 
-#ABC Notation to Audio
+2.ABC Notation to Audio
 Explore the capability to convert a song in ABC notation to an audio waveform and play it back. This functionality allows you to audibly experience the beauty of Irish folk music.
 
-#Model Training
+# Model Training
 
 1.Vectorize the Text
 Before diving into training the RNN model, we need to create a numerical representation of our text-based dataset. This involves generating two lookup tables: one mapping characters to numbers and another mapping numbers back to characters.
@@ -26,14 +26,14 @@ Our model is based on the Long Short-Term Memory (LSTM) architecture. It utilize
 4.Training the Model
 Train the RNN model using batches of song snippets from the dataset. The training process involves minimizing the sparse categorical crossentropy loss, optimizing the model to predict the next character accurately.
 
-#Music Generation
+# Music Generation
 1.Generating Music with the Trained Model
 Now that the model is trained, let's use it to generate new Irish folk music! Provide a seed to initiate the generation process, and iteratively predict each successive character using the trained RNN. The generated music is then encoded in ABC format.
 
 2.Restore the Latest Checkpoint
 To simplify the inference step, we use a batch size of 1. If you wish to run the model with a different batch size, rebuild the model and restore the weights from the latest checkpoint.
 
-#How to Use
+# How to Use
 Clone the repository and follow the instructions in the provided notebooks to explore, train, and generate Irish folk music using our RNN model.
 
 Feel free to experiment with different hyperparameters, dataset sizes, and model architectures to create unique musical compositions!
