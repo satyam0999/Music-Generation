@@ -1,8 +1,6 @@
-# Music Generation with RNNs
-
-
 # Irish Folk Music Generation with RNN
-Welcome to our Irish Folk Music Generation project! In this project, we explore the fascinating world of Irish folk songs represented in the ABC notation. We aim to train a Recurrent Neural Network (RNN) model to learn the intricate patterns within these musical notations and use the trained model to generate new, authentic pieces of Irish folk music.
+
+Welcome to my Irish Folk Music Generation project! In this project, I explore the fascinating world of Irish folk songs represented in the ABC notation. I aim to train a Recurrent Neural Network (RNN) model to learn the intricate patterns within these musical notations and use the trained model to generate new, authentic pieces of Irish folk music.
 
 # Getting Started
 
